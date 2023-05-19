@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SK Internet Service Providers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="../skisp/css/bootstrap.min.css">
+	<script src="../skisp/js/jquery.min.js"></script>
+	<script src="../skisp/js/bootstrap.min.js"></script>
+	<!--styles-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+	<link rel="stylesheet" href="../skisp/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../skisp/css/pricing.css">
+	<link rel="stylesheet" href="../skisp/css/style.css">
+	<!-- animation-effect -->
+	<link href="css/animate.min.css" rel="stylesheet"> 
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+  <style>
+	/* icons 
+	================================*/
+	.fa-rocket{
+		font-size:40px;
+		color:rgba(246, 246, 246, 0.936);
+		border:2px double transparent;
+		background-color:#168349;
+		padding:15px 18px;
+		border-radius:50px;
+	}
+	.fa-rocket:hover{
+		background-color:#17ae21;
+		color:rgb(254, 252, 252);
+		border:2px double transparent;
+	}
+	.fa-rupee{
+		font-size:40px;
+		color:white;
+		text-align:center;
+		border:2px double transparent;
+		background-color:#168349;
+		padding:15px 28px;
+		border-radius:50px;
+	}
+	.fa-rupee:hover{
+		background-color:#1ab32f;
+		color:white;
+		border:2px double transparent;
+	}
+	.fa-clock-o{
+		color:white;
+		font-size:40px;
+		border:2px double transparent;
+		background-color:#168349;
+		padding:15px 20px;
+		border-radius:50px;
+	}
+	.fa-clock-o:hover{
+		background-color:#22b73e;
+		color:white;
+		border:2px double transparent;
+	}
+	.fa-users{
+		font-size:40px;
+		color:white;
+		border:2px double transparent;
+		background-color:#168349;
+		padding:15px;
+		border-radius:50px; 
+	}
+	.fa-users:hover{
+		background-color:#22ae37;
+		color:white;
+		border:2px double transparent;
+	}
+	.border{
+		border:1px solid transparent;  
+		box-shadow:0px 0px 8px lightgrey;
+	}
+	.border:hover{
+		border:1px solid transparent;  
+		box-shadow:0px 0px 8px #1da92b;
+	}
+	h5{
+	font-family:'bookman old style';
+	}
+	p{
+	font-family:'bookman old style';
+	}
+	.k{
+	border:1px solid transparent;
+	}
+	.k:hover{
+	box-shadow:0px 0px 8px orange;
+	background-color:#f8f8f8;
+	}
+	.k:hover p{
+	color:white;
+	}
+
+	/*Nav-bar
+	===================================*/
+	.navbar-default {
+		background-color:white;
+		box-shadow:0px 4px 5px lightgrey;
+	}
+	.h{
+	font-size:18px;
+	font-family:'bookman old style';
+	font-weight:bold;
+	}
+	li{
+	padding:0px 15px;
+	color:black;
+	}
+ </style>
+ </head> 
+ <body>
+ <nav class="navbar navbar-default navbar-fixed-top ">
+  <div class="container-fluid" style="padding:0px 150px;">
+    <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" style="background-color:black;margin-top:15%;" data-target="#myNavbar">
+			<span style="background-color:rgb(120, 120, 120);" class="icon-bar"></span>
+			<span style="background-color:rgb(155, 151, 151);" class="icon-bar"></span>
+			<span style="background-color:rgb(120, 119, 119);" class="icon-bar"></span>                        
+		</button>
+		<a class="navbar-brand" href="#"><img src="../skisp/images/logo.jpg" style="width:60%;"></a>
+	</div>
+    <div class="collapse navbar-collapse cl-effect-17" id="myNavbar" >
+      <ul class="nav navbar-nav " style="margin-top:3%;">
+        <li ><a class="h" href="index.html">Home</a></li>
+		<li ><a class="h" href="aboutus.html">About</a></li>			
+        <li ><a class="h" href="services.html">Services</a></li>
+        <li><a class="h" href="plans&pricing.html">Plans&Pricing </a></li>
+		<li ><a class="h" href="contactus.html">Contact us</a></li>
+		<li ><a class="h" href="paybill.html">Pay Bill</a></li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active" style="background-color:lightblue"></li>
+      <li data-target="#myCarousel" data-slide-to="1" style="background-color:lightblue"></li>
+      <li data-target="#myCarousel" data-slide-to="2" style="background-color:lightblue"></li>
+	  <li data-target="#myCarousel" data-slide-to="3" style="background-color:lightblue"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+			<div class="image-content1">
+				<img src="..\skisp\images\oo1.jpg" alt="" style="width:100%;height:650px;" class="img-responsive">
+				<div class="centered-text1" style="background-color:transparent">
+					<h2 style="color:hwb(123 10% 32%);font-weight:bold;font-size:60px;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">S.P.A Traders</h2>
+					<p style="color:#f7f5f5;font-weight:bold;font-size:50px;line-height:50px;" class="wow fadeInDownBig" data-wow-duration="1000ms" data-wow-delay="300ms">Beams with quality <br> Experiance the incredible speed <br> -Speed upto 1Gbps</p>
+				</div>
+			</div>
+        </div>
+
+        <div class="item">
+			<div class="image-content2">
+				<img src="..\skisp\images\pp1.jpg" alt="" style="width:100%;height:650px;">
+				<div class="centered-text2" style="background-color:transparent">
+					<h2 style="color:hwb(123 10% 32%);font-weight:bold;font-size:60px;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms"> ALWAYS BE CONNECTED </h2> 
+					<p style="color:rgb(249, 245, 245);font-weight:bold;font-size:50px;line-height:50px;" class="wow fadeInDownBig" data-wow-duration="1000ms" data-wow-delay="300ms">We have equally efficient backup <br> par excellence technology never let off connection</p>
+				</div>
+			</div>
+        </div>
+    
+        <div class="item">
+			<div class="image-content3">
+				<img src="..\skisp\images\cc1.png" alt="" style="width:100%;height:650px;">
+				<div class="centered-text3" style="background-color:transparent">
+					<h2 style="color:hwb(123 10% 32%);font-weight:bold;font-size:60px;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">ELEVATE YOURSELF</h2> 
+					<p style="color:rgb(247, 242, 242);font-weight:bold;font-size:50px;line-height:50px;" class="wow fadeInDownBig" data-wow-duration="1000ms" data-wow-delay="300ms">To the next level of <br> Superfast internet broadband</p>
+				</div>
+			</div>
+        </div>
+	  
+	    <div class="item">
+			<div class="image-content4">
+				<img src="..\skisp\images\sss1.jpg"alt="" style="width:100%;height:650px;">
+				<div class="centered-text4" style="background-color:transparent">
+					<h2 style="color:hwb(120 95% 4%);font-weight:bold;font-size:60px;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">ALWAYS COMMITED <h2>
+					<p style="color:rgb(9, 130, 46);font-weight:bold;font-size:50px;line-height:50px;" class="wow fadeInDownBig" data-wow-duration="1000ms" data-wow-delay="300ms">To deliver latest technology with <br> continuous improvement</p> <br>
+				</div>
+			</div>
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+	<!--
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="sr-only">Next</span>
+    </a>
+	-->
+</div>
+
+
+
+<div class="container-fluid">
+	<div class="row">
+	<h3 style="color:white;text-align:center;font-weight:bold;background-color:hwb(123 10% 32%);padding:15px;margin-top:0px;">SRI PAAPATHI AMMAN TRADERS PVT LTD</h3>
+	</div>
+</div>
+<br>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-7" style="margin-top:60px;">
+			<h3 style="text-align:center;color:#14960f;font-weight:bold;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">WELCOME S.P.A TRADERS</h3><br>
+			<p style="text-align:justify;text-indent:50px;color:grey;font-size:18px;" class="wow bounceIn" data-wow-duration="1000ms" data-wow-delay="1000ms">You have to contact different companies or dealers like cement companies, steel suppliers, brick making companies, sand suppliers etc.
+				Always try to deal with one brand or a company. Then the chances of getting big discounts are high. You will get aggregator or ballast dealers from places like crusher.
+				In a building material shop, you can sell products like cement, steel bars, sand, different types of bricks, aggregator or ballast, iron, bamboo round poles, ladders, construction equipment etc.So We have provide all brand of meterials in excellent quality. 
+		</div>
+		<div class="col-sm-5">
+			<img src="..\skisp\images\qq1.png" alt="" width="500px" height="450px" class="wow flipInX" data-wow-duration="1000ms" data-wow-delay="300ms">
+		</div>
+	</div><br>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+		<h3 style="text-align:center;color:#28d24a;font-weight:bold;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">WHY CHOOSE SKISP?</h3>
+		<p style="text-align:center;font-size:18px;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">Some of our features</p><br>
+		</div>
+		<div class="row">
+		<div>
+			<div class="col-sm-1" style="margin-top:20px;">
+				<i class="fa fa-rocket"></i>
+			</div>
+			<div class="col-sm-5">
+				<h4 style="color:hwb(123 10% 32%);font-weight:bold;margin-left:10px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">High Speed</h4>
+				<p style="color:black;text-align:justify;font-size:15px;margin-left:10px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+				and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+			</div>
+		</div>
+			<div class="col-sm-1" style="margin-top:20px;">
+				<i class="fa fa-rupee"></i>
+			</div>
+			<div class="col-sm-5">
+				<h4 style="color:hwb(123 10% 32%);font-weight:bold;margin-left:10px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">Very Low Cost</h4>
+				<p style="color:black;text-align:justify;font-size:15px;margin-left:10px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+				and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+			</div>
+		</div><br><br>
+		<div class="row">
+			<div class="col-sm-1" style="margin-top:20px;">
+				<i class="fa fa-clock-o"></i>
+			</div>
+			<div class="col-sm-5">
+				<h4 style="color:hwb(123 10% 32%);font-weight:bold;margin-left:10px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">24/7 Services</h4>
+				<p style="color:black;text-align:justify;font-size:15px;margin-left:10px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+				and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+			</div>
+			<div class="col-sm-1" style="margin-top:20px;">
+				 <i class="fa fa-users"></i>
+			</div>
+			<div class="col-sm-5">
+				<h4 style="color:hwb(123 10% 32%);font-weight:bold;margin-left:10px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">Uninterrupted Internet</h4>
+				<p style="color:black;text-align:justify;font-size:15px;margin-left:10px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+				and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+			</div>
+		</div>
+	</div><br><br>
+</div>
+
+
+<div class="container">
+	<div class="row">
+	<div class="col-sm-3">
+		<div class="border wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+			<div class="back">
+				<img src="../skisp/images/call.png" alt="call" width="140px" height="120px"; style="margin-left:60px;margin-top:40px;"><br><br>
+				<h4 style="text-align:center;color:hwb(123 10% 32%);font-weight:bold;">Call to Book</h4><br>
+				<p style="text-align:center;font-size:15px;">Not only online booking you can call us directly to know our details.</p><br>
+				<a href="contactus.html" style="text-decoration:none;font-weight:bold;"><p style="text-align:center;">READ MORE>></a><br></p>
+			</div>
+			<div class="middle">
+				<div class="text">
+					<button type="button" class="btn btn-1 btn-1e" style="padding:20px 63px;">Call To Book</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-3">
+		<div class="border wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+		<div class="back">
+			<img src="../skisp/images/plan.png" alt="call" width="140px" height="120px"; style="margin-left:60px;margin-top:40px;"><br><br>
+			<h4 style="text-align:center; color:hwb(123 10% 32%);font-weight:bold;">Know your plan</h4><br>
+			<p style="text-align:center;font-size:15px;">Now customer can choose their plan from our site.</p><br>
+			<a href="plans&pricing.html" style="text-decoration:none;font-weight:bold;"><p style="text-align:center;">READ MORE>></a><br></p>
+		</div>
+		<div class="middle">
+			<div class="text">
+				<button type="button" class="btn btn-1 btn-1e" style="padding:20px 48px;">Know Your Plan</button>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="col-sm-3">
+		<div class="border wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+		<div class="back">
+			<img src="../skisp/images/pay.png" alt="call" width="140px" height="120px"; style="margin-left:60px;margin-top:40px;"><br><br>
+			<h4 style="text-align:center; color:hwb(123 10% 32%);font-weight:bold;">Easy Payment</h4><br>
+			<p style="text-align:center;font-size:15px;">Apart from online payment we accept Cash, cheque & DD.</p><br>
+			<a href="contactus.html" style="text-decoration:none;font-weight:bold;"><p style="text-align:center;">READ MORE>></a><br></p>
+		</div>
+		<div class="middle">
+			<div class="text">
+				<button type="button" class="btn btn-1 btn-1e" style="padding:20px 61px;">Easy Payment</button>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div class="col-sm-3">
+		<div class="border wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+		<div class="back">
+			<img src="../skisp/images/feedback.png" alt="call" width="140px" height="120px"; style="margin-left:60px;margin-top:40px;"><br><br>
+			<h4 style="text-align:center; color:hwb(123 10% 32%);font-weight:bold;">Customer Feedback</h4><br>
+			<p style="text-align:center;font-size:15px;">See some of Customers Feedbacks..To know us</p><br>
+			<a href="contactus.html" style="text-decoration:none;font-weight:bold;"><p style="text-align:center;">READ MORE>></a><br></p>
+		</div>
+		<div class="middle">
+			<div class="text">
+				<button type="button" class="btn btn-1 btn-1e" style="padding:20px 28px;">Customer Feedback</button>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	<br><br>
+</div>
+
+<div class="container-fluid" style="background-color:#f8f8f8">
+<div class="container" style="text-align:center;">
+	<div class="row">
+	<br><br><br>
+		<h2 style="color:#21bd3b;font-weight:bold;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">Get Ready for Ultra Speed Internet</h2><br>
+		<p style="font-size:18px;color:grey;" class="wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">Get ready for more potential, more opportunity and more of everything you expect from SKISP Broadband.<br> We bought gigabit Internet to all our customers, starting in 2019</p>
+		<br><br><br>
+		<div class="col-sm-4">
+			<img src="../skisp/images/g1.png" alt="" >
+			<h4 style="color:black;font-weight:bold;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">Download upto 1Gbps</h4><br>
+			<p style="font-size:16px;color:grey" class="wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">Connectivity Speeds Upto 1 Gbps, Delivering through Fiber optic Network.</p>
+		</div>
+		<div class="col-sm-4">
+			<img src="../skisp/images/g2.png" alt="" >
+			<h4 style="color:black;font-weight:bold" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">99% Intenet Uptime</h4><br>
+			<p style="font-size:16px;color:grey" class="wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">Our Servers have best uptime and tier 3 Data Center Enables you connected all the time.</p>
+		</div>
+		<div class="col-sm-4">
+			<img src="../skisp/images/g3.png" alt="" >
+			<h4 style="color:black;font-weight:bold;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">24/7 Customer Support</h4><br>
+			<p style="font-size:16px;color:grey;" class="wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">We Have 24/7 Call Center for support, 9am to 9pm email Support to help you out.</p>
+		</div>
+	</div>
+</div><br><br><br>
+</div>
+
+<div class="container-fluid" style="background-color:#1ec729">
+<div class="container">
+	<section class="circle_chart_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="circle_progress circular style-polygon" data-percentage="75" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                        <div class="circle_progress_inner">
+                            <strong></strong>
+                            <span class="percentage"></span>
+                            <h4>Subscribers</h4>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="circle_progress circular style-polygon" data-percentage="83" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                        <div class="circle_progress_inner">
+                            <strong></strong>
+                            <span class="percentage"></span>
+                            <h4>Connections</h4>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="circle_progress circular style-polygon" data-percentage="25" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                        <div class="circle_progress_inner">
+                            <strong></strong>
+                            <span class="percentage"></span>
+                            <h4>Good luck</h4>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="circle_progress circular style-polygon" data-percentage="95" data-thickness="3" data-reverse="true" data-empty-fill="transparent" data-start-color="#987dff" data-end-color="#7acaff">
+                        <div class="circle_progress_inner">
+                            <strong></strong>
+                            <span class="percentage"></span>
+                            <h4>Development</h4>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+</div>
+
+<div class="container-fluid" style="background-color:#f8f8f8">
+<div class="container">
+	<h3 style="text-align:center;color:#2cbc27;font-weight:bold;" class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">Why We Are using SKISP?</h3><br>
+	<div class="row">
+			<div class="col-sm-6">
+				<img src="../skisp/images/speed1.jpg" alt="speed test" width="380px" height="250px" style="margin-left:85px;margin-top:10px;" class="thumbnail wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms"><br>
+				<h4 style="text-align:center;color:hwb(123 10% 32%);font-weight:bold;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">Super Fast Internet</h4>
+				<p style="text-align:justify;color:grey;text-align:center;font-size:15px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="500ms">Packages with a variety of speed and incredible reliability of an underground fiber optic network. Joining with Skisp is the best option for both business and residents of India.</p><br>			
+			</div>
+			<div class="col-sm-6">
+				<img src="../skisp/images/home.jpg" alt="home use" width="380px" height="250px" style="margin-left:85px;margin-top:10px;" class="thumbnail wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms"><br>
+				<h4 style="text-align:center;color:hwb(123 10% 32%);font-weight:bold;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">For your Home</h4>
+				<p style="text-align:justify;color:grey;text-align:center;font-size:15px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="500ms">For the New residential customers to Skisp: Contact our team to setup installation. Your appointment will be scheduled based on availability. Call or email for more information.</p><br>
+			</div>
+			<div class="col-sm-6">
+				<img src="../skisp/images/business.jpg" alt="business" width="380px" height="250px" style="margin-left:85px;margin-top:10px;" class="thumbnail wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms"><br>
+				<h4 style="text-align:center;color:hwb(123 10% 32%);font-weight:bold;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">For your Bussiness</h4>
+				<p style="text-align:justify;color:grey;text-align:center;font-size:15px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="500ms">Our fiber network allows bussiness to connect to the internet at speeds faster than traditional broadband,to save the time and money as well as increasing productivity.</p>	
+			</div>
+			<div class="col-sm-6">
+				<img src="../skisp/images/customercare.jpg" alt="customercare" width="380px" height="250px" style="margin-left:85px;margin-top:10px;" class="thumbnail wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms"><br>
+				<h4 style="text-align:center;color:hwb(123 10% 32%);font-weight:bold;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">Friendly Customer Service</h4>
+				<p style="text-align:justify;color:grey;text-align:center;font-size:15px;" class="wow fadeIn" data-wow-duration="1000ms" data-wow-delay="500ms">Top Priority is given to servicing customers. Our staff provides fast friendly and professional customer service.</p><br>
+			</div>
+	</div><br>
+</div>
+</div>
+
+<div class="newsletter" style="background-image:url('../skisp/images/subscribe.jpg');background-size:1600px 250px;">
+		<div class="container" >
+			<div class="newsletter-info">
+				<h3 class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" style="font-weight:bold">SUBSCRIBE TO KNOW ABOUT PLANS</h3>
+				<p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"></p>
+				<form class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+					<input type="mail" value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}" required="">
+					<input type="submit" value="Subscribe">
+				</form>
+			</div>
+		</div>
+		<br>
+</div>
+<br>
+<div class="container-fluid" style="background-color:black;opacity:0.8;">
+<div class="row">
+	<div class="col-sm-3" style="margin-top:20px;margin-left:50px;">
+		<h4 style="font-weight:bold;color:white;">CONTACT</h4><br>
+		<ul class="list-unstyled" >
+			<li style="font-weight:bold;color:grey;"><span><i class="fa fa-map-marker" style="font-size:18px;color:hwb(123 10% 32%);"></i></span>&nbsp Rasipuram-Attur Main Road,Bharat Petrol Bunk Near Ayilpatti,Namakkal-636202 </li><br>
+			<li style="font-weight:bold;color:grey;"><span><i class="glyphicon glyphicon-earphone" style="font-size:18px;color:hwb(123 10% 32%);"></i></span>&nbsp 6380075776 , 9345333823</li><br>
+			<li style="font-weight:bold;color:grey;"><span><i class="fa fa-envelope" style="font-size:18px;color:hwb(123 10% 32%);"></i></span>&nbsp info@skisp.com</li><br>
+		</ul>
+		<hr style="margin-top:10px;margin-bottom:30px;">
+		<h4 style="font-weight:bold;color:white">FOLLOW US</h4><br>
+		<ul class="list-unstyled list-inline">
+			<li><a href=""><i class='fa fa-facebook-f'></i></a></li>
+			<li><a href=""><i class='fa fa-google-plus'></i></a></li>
+			<li><a href=""><i class='fa fa-twitter'></i></a></li>
+		</ul>
+	</div>
+	<div class="col-sm-2" style="margin-top:20px;">
+		<h4 style="font-weight:bold;color:white;">COMPANY</h4><br>
+		<ul class="list-unstyled">
+			<li ><a href="index.html" style="color:white;text-decoration:none;font-size:18px;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'"><span style="color:hwb(123 10% 32%);font-size:20px;font-weight:bold;"># &nbsp </span>Home</a></li><hr style="margin-top:10px;margin-bottom:10px;">
+			<li ><a href="aboutus.html" style="color:white;text-decoration:none;font-size:18px;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'"><span style="color:hwb(123 10% 32%);font-size:20px;font-weight:bold;"># &nbsp </span>About</a></li><hr style="margin-top:10px;margin-bottom:10px;">
+			<li ><a href="services.html" style="color:white;text-decoration:none;font-size:18px;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'"><span style="color:hwb(123 10% 32%);font-size:20px;font-weight:bold;"># &nbsp </span>Services</a></li><hr style="margin-top:10px;margin-bottom:10px;">
+			<li ><a href="plans&pricing.html" style="color:white;text-decoration:none;font-size:18px;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'"><span style="color:hwb(123 10% 32%);font-size:20px;font-weight:bold;"># &nbsp </span>Plans&Pricing </a></li><hr style="margin-top:10px;margin-bottom:10px;">
+			<li ><a href="contactus.html" style="color:white;text-decoration:none;font-size:18px;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'"><span style="color:hwb(123 10% 32%);font-size:20px;font-weight:bold;"># &nbsp </span>Contact us</a></li><hr style="margin-top:10px;margin-bottom:10px;">
+			<li ><a href="paybill.html" style="color:white;text-decoration:none;font-size:18px;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='grey'"><span style="color:hwb(123 10% 32%);font-size:20px;font-weight:bold;"># &nbsp </span>Pay Bill</a></li><hr style="margin-top:10px;margin-bottom:10px;">
+		</ul>		
+	</div>
+	<div class="col-sm-6" style="margin-top:20px;">
+		<h4 style="font-weight:bold;color:white;">LOCATE US</h4>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.673834577473!2d79.8037486142891!3d11.07473775664601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a551935cc07b407%3A0x34c620c2ce236634!2sSri+Abirami+Amirthakadeswarar+temple!5e1!3m2!1sen!2sin!4v1542112850450"  frameborder="0" style="border:0;width:100%;height:300px;" allowfullscreen></iframe>		
+	</div>
+	<div class="col-sm-1" style="margin-top:20px;"></div>
+	
+	<div class="col-sm-12" >
+		<hr style="width:90%;border-color:rgb(34, 163, 49);">
+		
+		<p style="color:white;text-align:center;margin-bottom:10px;margin-top:20px;"> &copy; COPYRIGHT 2022. SRI PAAPPATHI AMMAN PVT.LTD. All RIGHTS RESERVED.</p>
+		
+	</div>
+</div>
+</div>
+
+
+<script src="../skisp/js/circle-progress.min.js"></script>
+<script src="../skisp/js/plugins.js"></script>
+<script src="../skisp/js/circle-active.js"></script>
+
+</body>
+</html>
